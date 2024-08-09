@@ -12,7 +12,7 @@ exports.createSchool = async (req, res) => {
   }
 };
 
-// Retrieve all schools
+// Retrieve all schools filter
 exports.getSchools = async (req, res) => {
   try {
     const schools = await School.find();

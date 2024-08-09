@@ -1,7 +1,7 @@
 const Admin = require('../models/Admin');
 const Student = require('../models/Student');
 const School = require('../models/School');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 // Function to register a new admin
